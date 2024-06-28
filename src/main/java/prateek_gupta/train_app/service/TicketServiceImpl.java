@@ -139,7 +139,6 @@ public class TicketServiceImpl implements TicketService {
             }
             else {
                 response.put("message", "Invalid ticket id passed");
-                throw new Exception();
             }
         }catch (Exception e){
             log.error(e.getMessage(),e);
